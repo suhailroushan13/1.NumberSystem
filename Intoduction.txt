@@ -1,0 +1,272 @@
+//////////////// Number System /////////////////////
+
+1. What is Number System ?
+Sol : 
+Console it 0.1 + 0.2 = 0.3000000000000004
+
+If your System didn't  understand the encoded part ...your data will be corrupted
+Because of the losing bits
+
+Even if you use recovery software ...your data will be not in same quality as it was before
+because they lost bits ...lost in bits ..lost in data ...lots in kb...lost in clarity
+
+The DPI bits in Ratio .......
+Density Per Ratio
+
+If you see the text in boxes then your data is corrupted
+
+why 1 emotion is taking length as 2 (👋 = length = 2)
+and 1 character is taking length as 1 ( (a = 2) = a.length = 1)
+
+ASCCI is a Subset of UTF
+
+
+Unicode Transformation Format (UTF)
+Common Code points = UTF-8,UTF-
+
+
+ UTF has 0 -7424 characters 
+ This defines a UTF-16 Table, which uses 16-bits to define the characters.
+  | 
+ASCCI has 0 - 127 characters
+
+
+Make Web Apps Which Supports and Uses UTF-16 Table
+It Make Sures that data is not lost and not corrupted
+Sender and Receiver Should be in Sync Both Should be accpeting the UTF-16 Table
+
+Add Meta Tag <meta charset = "utf-16"> to both Should be in Sync 
+
+
+
+Number Systems : Its All about to represent a particular value
+(Number of digits you have to represent it)
+A numeral system is a writing system for expressing numbers;
+that is, a mathematical notation for representing numbers of
+a given set, using digits or other symbols in a consistent manner.
+The same sequence of symbols may represent different numbers in different numeral systems
+
+We Human use Decimal numbers
+
+Types Of Number System
+1. Decimal Number (0-9) (10 is the Radix / Base ) // Because 10 digits are there in 0 to 9 
+2. Binary Number (0-1) (2 is the Radix / Base ) // Because 2 digits are there in 0 to 1
+3. Octal Number (0-7) (8 is the Radix / Base ) // Because 8 digits are there in 0 to 7
+
+
+
+55$ Apple Product 
+
+How 55 become in Decimal is where radix is in 10 because its Decimal radix is 10
+
+5      5 
+x       x
+10^1 + 10^0 
+10^1 = 10 and 10 X 5 = 50 ; 10^0 = 1 and 1 x 5 = 5 ; and 50 + 5 is 55
+
+50   + 5 = 55
+
+
+324 Radix is 10
+
+
+3    2    4
+10^2 10^1 10^0 
+
+300 + 20 + 4 = 324
+///////////////////////
+(Binary to Decimal) 
+1   0   1   1    0 
+2^4+2^3+2^2+2^1+2^0
+= 22
+/////////////////////
+Terenry to Decimal
+
+2   1      0
+3^2 + 3^1 + 3^0 
+9+3+= 11
+There are 4 Types of Number Systems we have
+Decimal Number System
+Binary Number System
+Octal Number System
+Hexadecimal Number System
+Radix / Base: Number of Digits you have in a Number System
+
+Decimal Number System
+Decimal comes from the Latin word Decimus, meaning tenth, from the root word decem, or 10. The decimal system,
+therefore, has 10 as its base /Radix and is sometimes called a base-10 system. … The decimal point, for example,
+refers to the period that separates the ones place from the tenths place in decimal numbers.
+Range : [0,1,2,3,4,5,6,7,8,9]
+Example 1 : (14)base10 , (30)base10
+How we Define it 5 and 55
+Example 1:
+Where we know that base is 10 here
+base is 10 . So it should be 10 in Multiple
+55 = [10(power)0 X 5]+ [10(power)1 X 5]
+55 = 5+50
+Example 2:
+345
+300 + 40 + 5
+345 = [10(power)2 X 3]+ [10(power)1 X 4]+[10(power)0 X 5]
+Same for All Number Systems with respect to their base numbers
+
+
+
+Binary Number System
+A binary number is a number expressed in the base-2 numeral system or binary numeral system, 
+a method of mathematical expression that uses only two symbols: typically “0” and “1”. 
+The base-2 numeral system is a positional notation with a radix of 2. Each digit is referred 
+to as a bit or binary digit.
+Range : [0,1]
+Example : (10)base2 , (01)base2
+
+
+
+Octal Number System
+The octal numeral system, or oct for short, is the base-8 number system and uses the digits 0 to 7, 
+that is to say, 10 represents 8 in decimal and 100 represents 64 in decimal
+Range :[0,1,2,3,4,5,6,7]
+Example : (45)base8 , (34)base8
+
+
+Hexadecimal Number System
+Range :[0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F]
+Where
+A = 11
+B = 12
+C = 13
+D = 14
+E = 15
+F = 16
+Example : (4A)base16 , (F3)base16
+
+
+
+///////////////////////////////////////////////
+
+1.1 Decimal to Binary
+(45)₁₀ to ( )₂
+1st Method LCM
+45/2 Quotient = 22 , Remainder = 1
+22/2 Quotient = 11, Remainder = 0
+11/2 Quotient = 5 , Remainder = 1
+5/2 Quotient = 2, Remainder = 1
+2/2 Quotient = 1, Remainder = 0
+Take From Last Quotient to Upper Last Remainder
+1 0 1 1 0 1
+(45)₁₀ = (101101)₂
+
+
+1.2 Decimal to Octal
+
+(45)₁₀ to ( )₈
+2 Methods
+Decimal to Octal
+Decimal to Binary — Binary to Octal
+Decimal to Octal
+(45)₁₀ to ( )₈
+1st Method LCM
+45/8 Quotient = 5, Remainder = 5
+5/8 Quotient = 5 , Remainder = 0
+5 5
+(45)₁₀ to (55 )₈
+
+
+2nd Method
+Decimal to Binary — Binary to Octal
+(46)₁₀ to ( )₂
+46/2 Quotient = 23 , Remainder = 0
+23/2 Quotient = 11, Remainder = 1
+11/2 Quotient = 5 , Remainder = 1
+5/2 Quotient = 2, Remainder = 1
+2/2 Quotient = 1, Remainder = 0
+1 0 1 1 1 0
+(46)₁₀ = (101110)₂
+Binary to Octal
+1 0 1 1 1 0
+Divide the Number in 2 Parts
+101 and 110
+1 0 1
+²²x1+²¹x0+²⁰x1
+4x1+ 2x0 + 1x1
+4+1 = 5 (1st Digit) — — — — — — 1
+110
+²²x1 + ²¹x1 + ²⁰x0
+4x1 + 2x1+1x0
+4+2 = 6 (2nd Digit) — — — — — — 2
+= 56
+(101110)₂ = (56)₈
+
+1.3 Decimal to Hexadecimal
+
+(47)₁₀ to ( )₁₆
+2 Methods
+Decimal to Hexadecimal
+Decimal to Binary — Binary to Hexadecimal
+1st Method LCM
+(47)₁₀ to ( )₁₆
+47/16 Quotient = 32, Remainder = 15
+32/16 Quotient = 2, Remainder = 0
+Where in Hexadecimal F = 15
+So There is 2 and F
+(47)₁₀ to (2F )₁₆
+
+2nd Method Decimal to Binary — Binary to Hexadecimal
+(47)₁₀ to ( )₂
+47/2 Quotient = 23 , Remainder = 1
+23/2 Quotient = 11, Remainder = 1
+11/2 Quotient = 5 , Remainder = 1
+5/2 Quotient = 2, Remainder = 1
+2/2 Quotient = 1, Remainder = 0
+1 0 1 1 1 1
+(47)₁₀ to (101111 )₂
+Binary to Hexadecimal
+1 0 1 1 1 1
+Where 1 0 in binary is 2
+and 1111 is F
+(101111 )₂ = (2F )₁₆
+
+1.4 Decimal to N Base Number
+(47)₁₀ to ( )₆
+1st Method LCM
+47/6 Quotient = 7, Remainder = 5
+7/6 Quotient = 1 , Remainder = 1
+(47)₁₀= (115)₆
+
+
+ 
+  
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
